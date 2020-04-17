@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int d1,d2,c1,c2,dollar,cents;
+  cin>>d1>>c1>>d2>>c2;
+  if(c1+c2 >=100)
+  {
+    dollar=(d1+d2)+1;
+    cents=(c1+c2)-100;
+  }
+    else
+    {
+    dollar=(d1+d2);
+    cents=(c1+c2);
+    }
+  cout<<dollar<<"\n"<<cents;
+}
