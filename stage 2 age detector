@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int by,cy;
+  cin>>by>>cy;
+  if(cy < by)
+  {
+    by=100-by;
+  	int a=by+cy;
+    cout<<a;
+  }
+  else
+  {
+    cout<<cy-by;
+  }
+  
+}
