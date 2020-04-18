@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int r,l;
+  cin>>r>>l;
+	int d=r*2;
+    
+  if(l < d)
+    cout<<"circle cannot be inside a square";
+  else
+    cout<<"circle can be inside a square";
+}
