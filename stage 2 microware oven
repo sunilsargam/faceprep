@@ -1,0 +1,14 @@
+#include<iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+  int n;
+  
+  double hn;
+  cin>>n>>hn;
+  if( n > 2 )
+    cout<<double(hn*2);
+  else
+    cout<<double((hn+(hn/100*50)));
+}
