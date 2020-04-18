@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+ int fA,fD,fS,sA,sD,sS,aA,aD,aS;
+  cin>>fA>>fD>>fS>>sA>>sD>>sS>>aA>>aD>>aS;
+    
+	int f=fA-((fA * fD)/100)+fS;
+    int s=sA-((sA * sD)/100 )+sS;
+    int a=aA-((aA * aD)/100 )+aS;
+  cout<<"In Flipkart Rs."<<f;
+  cout<<"\nIn Snapdeal Rs."<<s;
+  cout<<"\nIn Amazon Rs."<<a;
+  
+  if(s >= f && a >= f)
+    cout<<"\nHe will prefer Flipkart";
+  else if(f >= s && a >= s )
+    cout<<"\nHe will prefer Snapdeal ";
+  else
+        cout<<"\nHe will prefer Amazon";
+
+}
