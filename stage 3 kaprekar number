@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+  int n;
+  cin>>n;
+  int a=n*n;
+  int d1=a/100;
+  int d2=a%100;
+  if(d1+d2==n)
+    cout<<"Kaprekar Number";
+  else
+    cout<<"Not a Kaprekar Number";
+}
+//1 test case hidden . not solved
