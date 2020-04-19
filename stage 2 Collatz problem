@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int n,temp;
+  	cin>>n;
+  	temp=n;
+  int cnt=0;
+  if(n==1)
+    cout<<n<<"\n"<<cnt;
+  while(n!=1){
+  	if(n%2==0)
+    {
+      cout<<n;
+      n=n/2;
+      cout<<"\n";
+      cnt++;
+    }
+  	else
+    {
+      cout<<n;
+      n=3*n+1;
+     cout<<"\n";
+      cnt++;
+    }
+	if(n==1)
+      cout<<n<<"\n"<<cnt;
+   }
+
+}
